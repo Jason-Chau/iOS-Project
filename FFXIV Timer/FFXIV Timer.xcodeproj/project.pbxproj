@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		478C13F7240EF82400C3AAF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478C13F6240EF82400C3AAF5 /* AppDelegate.swift */; };
+		478C13F9240EF82400C3AAF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478C13F8240EF82400C3AAF5 /* SceneDelegate.swift */; };
+		478C13FB240EF82400C3AAF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478C13FA240EF82400C3AAF5 /* ViewController.swift */; };
+		478C13FE240EF82400C3AAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478C13FC240EF82400C3AAF5 /* Main.storyboard */; };
+		478C1401240EF82400C3AAF5 /* FFXIV_Timer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 478C13FF240EF82400C3AAF5 /* FFXIV_Timer.xcdatamodeld */; };
+		478C1403240EF82800C3AAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478C1402240EF82800C3AAF5 /* Assets.xcassets */; };
+		478C1406240EF82800C3AAF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478C1404240EF82800C3AAF5 /* LaunchScreen.storyboard */; };
+		478C1411240EF82900C3AAF5 /* FFXIV_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478C1410240EF82900C3AAF5 /* FFXIV_TimerTests.swift */; };
+		478C141C240EF82900C3AAF5 /* FFXIV_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478C141B240EF82900C3AAF5 /* FFXIV_TimerUITests.swift */; };
+		478C142A240F587000C3AAF5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478C1429240F587000C3AAF5 /* FirstViewController.swift */; };
+		478C142C240F587F00C3AAF5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478C142B240F587F00C3AAF5 /* SecondViewController.swift */; };
+		478C142E240F588C00C3AAF5 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478C142D240F588C00C3AAF5 /* ThirdViewController.swift */; };
+		478C1430240F613D00C3AAF5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478C142F240F613D00C3AAF5 /* HomeViewController.swift */; };
+		478C1432240F662200C3AAF5 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478C1431240F662200C3AAF5 /* FourthViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		478C140D240EF82900C3AAF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 478C13EB240EF82400C3AAF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 478C13F2240EF82400C3AAF5;
+			remoteInfo = "FFXIV Timer";
+		};
+		478C1418240EF82900C3AAF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 478C13EB240EF82400C3AAF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 478C13F2240EF82400C3AAF5;
+			remoteInfo = "FFXIV Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		478C13F3240EF82400C3AAF5 /* FFXIV Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FFXIV Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		478C13F6240EF82400C3AAF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		478C13F8240EF82400C3AAF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		478C13FA240EF82400C3AAF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		478C13FD240EF82400C3AAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		478C1400240EF82400C3AAF5 /* FFXIV_Timer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FFXIV_Timer.xcdatamodel; sourceTree = "<group>"; };
+		478C1402240EF82800C3AAF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		478C1405240EF82800C3AAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		478C1407240EF82800C3AAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478C140C240EF82900C3AAF5 /* FFXIV TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FFXIV TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		478C1410240EF82900C3AAF5 /* FFXIV_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXIV_TimerTests.swift; sourceTree = "<group>"; };
+		478C1412240EF82900C3AAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478C1417240EF82900C3AAF5 /* FFXIV TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FFXIV TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		478C141B240EF82900C3AAF5 /* FFXIV_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXIV_TimerUITests.swift; sourceTree = "<group>"; };
+		478C141D240EF82900C3AAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478C1429240F587000C3AAF5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		478C142B240F587F00C3AAF5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		478C142D240F588C00C3AAF5 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		478C142F240F613D00C3AAF5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		478C1431240F662200C3AAF5 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		478C13F0240EF82400C3AAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478C1409240EF82900C3AAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478C1414240EF82900C3AAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		478C13EA240EF82400C3AAF5 = {
+			isa = PBXGroup;
+			children = (
+				478C13F5240EF82400C3AAF5 /* FFXIV Timer */,
+				478C140F240EF82900C3AAF5 /* FFXIV TimerTests */,
+				478C141A240EF82900C3AAF5 /* FFXIV TimerUITests */,
+				478C13F4240EF82400C3AAF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		478C13F4240EF82400C3AAF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				478C13F3240EF82400C3AAF5 /* FFXIV Timer.app */,
+				478C140C240EF82900C3AAF5 /* FFXIV TimerTests.xctest */,
+				478C1417240EF82900C3AAF5 /* FFXIV TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		478C13F5240EF82400C3AAF5 /* FFXIV Timer */ = {
+			isa = PBXGroup;
+			children = (
+				478C1407240EF82800C3AAF5 /* Info.plist */,
+				478C13F6240EF82400C3AAF5 /* AppDelegate.swift */,
+				478C1429240F587000C3AAF5 /* FirstViewController.swift */,
+				478C1431240F662200C3AAF5 /* FourthViewController.swift */,
+				478C142F240F613D00C3AAF5 /* HomeViewController.swift */,
+				478C13F8240EF82400C3AAF5 /* SceneDelegate.swift */,
+				478C142B240F587F00C3AAF5 /* SecondViewController.swift */,
+				478C142D240F588C00C3AAF5 /* ThirdViewController.swift */,
+				478C13FA240EF82400C3AAF5 /* ViewController.swift */,
+				478C1402240EF82800C3AAF5 /* Assets.xcassets */,
+				478C13FF240EF82400C3AAF5 /* FFXIV_Timer.xcdatamodeld */,
+				478C1404240EF82800C3AAF5 /* LaunchScreen.storyboard */,
+				478C13FC240EF82400C3AAF5 /* Main.storyboard */,
+			);
+			path = "FFXIV Timer";
+			sourceTree = "<group>";
+		};
+		478C140F240EF82900C3AAF5 /* FFXIV TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				478C1410240EF82900C3AAF5 /* FFXIV_TimerTests.swift */,
+				478C1412240EF82900C3AAF5 /* Info.plist */,
+			);
+			path = "FFXIV TimerTests";
+			sourceTree = "<group>";
+		};
+		478C141A240EF82900C3AAF5 /* FFXIV TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				478C141B240EF82900C3AAF5 /* FFXIV_TimerUITests.swift */,
+				478C141D240EF82900C3AAF5 /* Info.plist */,
+			);
+			path = "FFXIV TimerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		478C13F2240EF82400C3AAF5 /* FFXIV Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478C1420240EF82900C3AAF5 /* Build configuration list for PBXNativeTarget "FFXIV Timer" */;
+			buildPhases = (
+				478C13EF240EF82400C3AAF5 /* Sources */,
+				478C13F0240EF82400C3AAF5 /* Frameworks */,
+				478C13F1240EF82400C3AAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FFXIV Timer";
+			productName = "FFXIV Timer";
+			productReference = 478C13F3240EF82400C3AAF5 /* FFXIV Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		478C140B240EF82900C3AAF5 /* FFXIV TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478C1423240EF82900C3AAF5 /* Build configuration list for PBXNativeTarget "FFXIV TimerTests" */;
+			buildPhases = (
+				478C1408240EF82900C3AAF5 /* Sources */,
+				478C1409240EF82900C3AAF5 /* Frameworks */,
+				478C140A240EF82900C3AAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				478C140E240EF82900C3AAF5 /* PBXTargetDependency */,
+			);
+			name = "FFXIV TimerTests";
+			productName = "FFXIV TimerTests";
+			productReference = 478C140C240EF82900C3AAF5 /* FFXIV TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		478C1416240EF82900C3AAF5 /* FFXIV TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478C1426240EF82900C3AAF5 /* Build configuration list for PBXNativeTarget "FFXIV TimerUITests" */;
+			buildPhases = (
+				478C1413240EF82900C3AAF5 /* Sources */,
+				478C1414240EF82900C3AAF5 /* Frameworks */,
+				478C1415240EF82900C3AAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				478C1419240EF82900C3AAF5 /* PBXTargetDependency */,
+			);
+			name = "FFXIV TimerUITests";
+			productName = "FFXIV TimerUITests";
+			productReference = 478C1417240EF82900C3AAF5 /* FFXIV TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		478C13EB240EF82400C3AAF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jason Chau";
+				TargetAttributes = {
+					478C13F2240EF82400C3AAF5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					478C140B240EF82900C3AAF5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 478C13F2240EF82400C3AAF5;
+					};
+					478C1416240EF82900C3AAF5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 478C13F2240EF82400C3AAF5;
+					};
+				};
+			};
+			buildConfigurationList = 478C13EE240EF82400C3AAF5 /* Build configuration list for PBXProject "FFXIV Timer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 478C13EA240EF82400C3AAF5;
+			productRefGroup = 478C13F4240EF82400C3AAF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				478C13F2240EF82400C3AAF5 /* FFXIV Timer */,
+				478C140B240EF82900C3AAF5 /* FFXIV TimerTests */,
+				478C1416240EF82900C3AAF5 /* FFXIV TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		478C13F1240EF82400C3AAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478C1406240EF82800C3AAF5 /* LaunchScreen.storyboard in Resources */,
+				478C1403240EF82800C3AAF5 /* Assets.xcassets in Resources */,
+				478C13FE240EF82400C3AAF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478C140A240EF82900C3AAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478C1415240EF82900C3AAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		478C13EF240EF82400C3AAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478C142C240F587F00C3AAF5 /* SecondViewController.swift in Sources */,
+				478C142A240F587000C3AAF5 /* FirstViewController.swift in Sources */,
+				478C13FB240EF82400C3AAF5 /* ViewController.swift in Sources */,
+				478C1432240F662200C3AAF5 /* FourthViewController.swift in Sources */,
+				478C1430240F613D00C3AAF5 /* HomeViewController.swift in Sources */,
+				478C142E240F588C00C3AAF5 /* ThirdViewController.swift in Sources */,
+				478C13F7240EF82400C3AAF5 /* AppDelegate.swift in Sources */,
+				478C13F9240EF82400C3AAF5 /* SceneDelegate.swift in Sources */,
+				478C1401240EF82400C3AAF5 /* FFXIV_Timer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478C1408240EF82900C3AAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478C1411240EF82900C3AAF5 /* FFXIV_TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478C1413240EF82900C3AAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478C141C240EF82900C3AAF5 /* FFXIV_TimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		478C140E240EF82900C3AAF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 478C13F2240EF82400C3AAF5 /* FFXIV Timer */;
+			targetProxy = 478C140D240EF82900C3AAF5 /* PBXContainerItemProxy */;
+		};
+		478C1419240EF82900C3AAF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 478C13F2240EF82400C3AAF5 /* FFXIV Timer */;
+			targetProxy = 478C1418240EF82900C3AAF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		478C13FC240EF82400C3AAF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478C13FD240EF82400C3AAF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		478C1404240EF82800C3AAF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478C1405240EF82800C3AAF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		478C141E240EF82900C3AAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		478C141F240EF82900C3AAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		478C1421240EF82900C3AAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D62YJKUZA;
+				INFOPLIST_FILE = "FFXIV Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UCONN.FFXIV-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		478C1422240EF82900C3AAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D62YJKUZA;
+				INFOPLIST_FILE = "FFXIV Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UCONN.FFXIV-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		478C1424240EF82900C3AAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D62YJKUZA;
+				INFOPLIST_FILE = "FFXIV TimerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UCONN.FFXIV-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFXIV Timer.app/FFXIV Timer";
+			};
+			name = Debug;
+		};
+		478C1425240EF82900C3AAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D62YJKUZA;
+				INFOPLIST_FILE = "FFXIV TimerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UCONN.FFXIV-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFXIV Timer.app/FFXIV Timer";
+			};
+			name = Release;
+		};
+		478C1427240EF82900C3AAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D62YJKUZA;
+				INFOPLIST_FILE = "FFXIV TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UCONN.FFXIV-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FFXIV Timer";
+			};
+			name = Debug;
+		};
+		478C1428240EF82900C3AAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D62YJKUZA;
+				INFOPLIST_FILE = "FFXIV TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UCONN.FFXIV-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FFXIV Timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		478C13EE240EF82400C3AAF5 /* Build configuration list for PBXProject "FFXIV Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478C141E240EF82900C3AAF5 /* Debug */,
+				478C141F240EF82900C3AAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478C1420240EF82900C3AAF5 /* Build configuration list for PBXNativeTarget "FFXIV Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478C1421240EF82900C3AAF5 /* Debug */,
+				478C1422240EF82900C3AAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478C1423240EF82900C3AAF5 /* Build configuration list for PBXNativeTarget "FFXIV TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478C1424240EF82900C3AAF5 /* Debug */,
+				478C1425240EF82900C3AAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478C1426240EF82900C3AAF5 /* Build configuration list for PBXNativeTarget "FFXIV TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478C1427240EF82900C3AAF5 /* Debug */,
+				478C1428240EF82900C3AAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		478C13FF240EF82400C3AAF5 /* FFXIV_Timer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				478C1400240EF82400C3AAF5 /* FFXIV_Timer.xcdatamodel */,
+			);
+			currentVersion = 478C1400240EF82400C3AAF5 /* FFXIV_Timer.xcdatamodel */;
+			path = FFXIV_Timer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 478C13EB240EF82400C3AAF5 /* Project object */;
+}
